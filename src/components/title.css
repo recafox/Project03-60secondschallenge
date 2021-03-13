@@ -1,0 +1,41 @@
+.title-container {
+  width: 100%;
+  height: 282px;
+  display: flex;
+  align-items: center;
+}
+
+.title__left {
+  width: 240px;
+  font-size: 240px;
+  color: var(--emphasize-color);
+  text-shadow: 12px 0px 0px var(--secondary-color);
+  margin-right: 24px;
+}
+
+.title__right {
+  font-size: 96px;
+  color: var(--secondary-color);
+}
+
+.right__upper {
+  display: flex;
+  align-items: center;
+}
+
+.right__upper .sign-box {
+  font-size: 44px;
+  color: var(--emphasize-color);
+  padding: 3px 0;
+  border-bottom: 3px solid #fff;
+  margin-left: 12px;
+}
+
+.sign-box div {
+  border-bottom: 3px solid #fff;
+}
+
+
+.page--start .button {
+  width: 350px;
+}

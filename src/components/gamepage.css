@@ -1,0 +1,11 @@
+
+
+.page__upper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page__bottom {
+  margin-top: 114px;
+}

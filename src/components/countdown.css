@@ -1,0 +1,8 @@
+.countdown {
+  color: var(--emphasize-color);
+  font-size: 96px;
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  font-weight: 700;
+}

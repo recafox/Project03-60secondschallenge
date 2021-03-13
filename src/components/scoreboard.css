@@ -1,0 +1,28 @@
+.scoreboard {
+
+}
+
+.scoreboard__logo {
+  border: 4px solid var(--emphasize-color);
+  color: var(--emphasize-color);
+  font-size: 30px;
+  padding: 12px;
+}
+
+.scoreboard__score {
+  display: flex;
+}
+
+.score__txt {
+  background: var(--emphasize-color);
+  color: var(--main-color);
+  padding: 16px;
+  font-size: 30px;
+}
+
+.score__num {
+  font-size: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}

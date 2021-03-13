@@ -1,0 +1,30 @@
+.question-board {
+  display: flex;
+}
+
+.question {
+  font-size: 112px;
+  display: flex;
+  width: 445px;
+  justify-content: space-evenly;
+}
+
+.question.shaking {
+  transform-origin: center;
+  animation: shaking 0.1s ease-in-out 10;
+}
+.question__sign {
+  color: var(--emphasize-color);
+}
+
+@keyframes shaking {
+  0% {
+    transform: translateX(-20px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    tranform: translateX(0);
+  }
+}
